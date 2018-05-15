@@ -1,0 +1,30 @@
+push
+move 250 400 0
+push
+rotate x 90
+rotate z 30
+push
+scale 0.35 0.35 0.35
+torus 0 0 0 10 100
+torus 0 0 0 10 90
+torus 0 0 0 10 80
+torus 0 0 0 10 70
+torus 0 0 0 10 60
+torus 0 0 0 10 50
+torus 0 0 0 10 40
+torus 0 0 0 10 30
+sphere 0 0 0 20
+push
+rotate x 160
+torus 0 0 -100 10 100
+pop
+pop
+pop
+push
+rotate y -30
+box -125 50 0 250 400 10
+pop
+pop
+push
+sphere 310 250 30 20
+save door.png
